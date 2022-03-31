@@ -2,6 +2,7 @@ package co.uk.zoopla.StepDefinitions;
 
 import co.uk.zoopla.Pages.BasePage;
 import co.uk.zoopla.Pages.HomePage;
+import co.uk.zoopla.Pages.ProductdetailsPage;
 import co.uk.zoopla.Pages.SearchResultPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -14,6 +15,7 @@ public class Steps_To_Search_For_Property extends BasePage
 {
     HomePage homePage = new HomePage(driver);
     SearchResultPage searchResultPage = new SearchResultPage(driver);
+    ProductdetailsPage productdetailsPage = new ProductdetailsPage(driver);
 
     @Given("I navigate to Zoopla homepage")
     public void i_navigate_to_zoopla_homepage() throws InterruptedException{
@@ -75,6 +77,12 @@ public class Steps_To_Search_For_Property extends BasePage
 
     @Then("search result page is displayed")
     public void search_result_page_is_displayed(){
+        searchResultPage.isSearchResultPageDisplayed();
     }
 
+    @And("I can click on any of the results")
+    public void iCanClickOnAnyOfTheResults() {
+        productdetailsPage = searchResultPage.clickResult();
+
+    }
 }
