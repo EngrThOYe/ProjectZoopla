@@ -10,6 +10,7 @@ Feature: Property_search
     And I choose "<Property>" as the property type
     And  I click on Search button
     Then search result page is displayed
+    And I can click on any of the results
 
 
     Examples: Search Test Data
