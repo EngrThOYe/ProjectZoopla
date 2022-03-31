@@ -29,7 +29,7 @@ public class SearchResultPage extends BasePage{
     public ProductdetailsPage clickResult()
     {
         //to click on the 5th result 0,1,2,3,4,5
-        results.get(5).click();
+        results.get(3).click();
         return new ProductdetailsPage(driver);
     }
 }
