@@ -85,4 +85,6 @@ public class Steps_To_Search_For_Property extends BasePage
         productdetailsPage = searchResultPage.clickResult();
 
     }
+
+
 }
