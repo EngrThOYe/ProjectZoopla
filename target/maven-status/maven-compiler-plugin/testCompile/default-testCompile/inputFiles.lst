@@ -2,8 +2,11 @@ D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Runne
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\StepDefinitions\Steps_To_Search_For_Property.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Commons\BrowserManager.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Commons\DriverManager.java
+D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Pages\ProductdetailsPage.java
+D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Utility\Configuration.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Hook\Hook.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Pages\BasePage.java
+D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Utility\Environment.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\AppTest.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Pages\SearchResultPage.java
 D:\Program Files\IntelliJ Project\ProjectZoopla\src\test\java\co\uk\zoopla\Pages\HomePage.java
